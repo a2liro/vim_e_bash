@@ -119,8 +119,9 @@ alias egrep='egrep --color=auto'
 fi # Fim do if do dircolor
  
 #==============================================
-# Aliases para uso no dia-a-dia e testes
+# Aliases para uso diário
 #==============================================
+alias estrutura-de-dados='cd /home/andre/Documentos/estudos/if/segundo_semestre/estrutura_de_dados/ && ls -la'
 
 # export do android
 export ANDROID_HOME=/opt/android-sdk

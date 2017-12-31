@@ -17,7 +17,7 @@ map <F7> mqHmwgg=G`wzt`q
 set nu
 
 " Configurar o tab para 4 espaços
-set expandtab ts=2 sw=2
+set expandtab ts=4 sw=4
 
 "configurar o autocomplete para php
 "set omnifunc=phpcomplete#CompletePHP

@@ -121,7 +121,8 @@ fi # Fim do if do dircolor
 #==============================================
 # Aliases para uso diário
 #==============================================
-alias estrutura-de-dados='cd /home/andre/Documentos/estudos/if/segundo_semestre/estrutura_de_dados/ && ls -la'
+alias cdestrutura-de-dados='cd /home/andre/Documentos/estudos/if/segundo_semestre/estrutura_de_dados/ && ls -la'
+alias cdionic='cd /home/andre/Documentos/estudos/javascript/ionic/ && ls -lah'
 
 # export do android
 export ANDROID_HOME=/opt/android-sdk

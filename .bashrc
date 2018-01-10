@@ -123,6 +123,8 @@ fi # Fim do if do dircolor
 #==============================================
 alias cdestrutura-de-dados='cd /home/andre/Documentos/estudos/if/segundo_semestre/estrutura_de_dados/ && ls -la'
 alias cdionic='cd /home/andre/Documentos/estudos/javascript/ionic/ && ls -lah'
+alias docker-start-site='/home/andre/Documentos/docker/site/docker-start-site.sh'
+alias previsao-do-tempo='curl http://wttr.in/~campo-formoso'
 
 # export do android
 export ANDROID_HOME=/opt/android-sdk

@@ -1,5 +1,11 @@
 
 
+" mapeamento para as teclas pararem de funcionar
+nmap <left> <NOP>
+nmap <right> <NOP>
+nmap <up> <NOP>
+nmap <down> <NOP>
+
 " pathogen
 execute pathogen#infect()
 syntax on
@@ -12,12 +18,27 @@ colorscheme monokai-soda
 
 " Atalho para auto identação
 map <F7> mqHmwgg=G`wzt`q
+
+"mapeamento para navegar entre abas
+map <c-left> gT
+map <c-right> gt
+
+imap <c-left> <esc> gT
+imap <c-right> <esc> gt
+
 "map <F7> mzgg=G`z
 "mostrar numero das linhas
 set nu
 
 " Configurar o tab para 4 espaços
 set expandtab ts=4 sw=4
+
+"configuração para indentar de forma diferente em arquivos diferentes
+" autocmd FileType php set softtabstop=4 tabstop=8 laststatus=2 shiftwidth=4 expandtab
+" autocmd FileType html set softtabstop=2 tabstop=2 laststatus=2 shiftwidth=2 expandtab
+
+
+
 
 "configurar o autocomplete para php
 "set omnifunc=phpcomplete#CompletePHP

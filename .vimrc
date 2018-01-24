@@ -16,6 +16,10 @@ filetype plugin indent on
 colorscheme monokai-soda
 " colorscheme onedark
 
+" dando uma arrumada no airline
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
 " Atalho para auto identação
 map <F7> mqHmwgg=G`wzt`q
 
@@ -79,4 +83,14 @@ map <C-Up> <esc>ddkP<esc>
 set viminfo='10,\"30,:20,%,n~/.viminfo
 au BufReadPost * if line("'\"")|execute("normal `\"")|endif
 
+
+" tentativa do syntastic funcionar
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 

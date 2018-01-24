@@ -16,6 +16,26 @@
 # Configurações Gerais
 #-----------------------------------------------
  
+echo "                         .-\"\"\"-.  "
+echo "                        / .===. \    "
+echo "                        \/ 6 6 \/    "
+echo "                        ( \___/ )    "
+echo " ___________________ooo__\_____/__________________________"
+echo "/                                                         \ "
+echo "|               Eu adoraria mudar o mundo,                | "
+echo "|            mas não me deram o código-fonte.             | "
+echo "|                                                         | "
+echo "|                                                         | "
+echo "|                                                         | "
+echo "\__________________________________ooo____________________/ "
+echo "                         |  |  | "
+echo "                         |_ |_ | "
+echo "                         |  |  | "
+echo "                         |__|__| "
+echo "                         /-'Y'-\ "
+echo "                        (__/ \__) "
+echo " "
+
 # Se não estiver rodando interativamente, não fazer nada
 [ -z "$PS1" ] && return
  
@@ -125,7 +145,18 @@ alias cdestrutura-de-dados='cd /home/andre/Documentos/estudos/if/segundo_semestr
 alias cdionic='cd /home/andre/Documentos/estudos/javascript/ionic/ && ls -lah'
 alias docker-start-site='/home/andre/Documentos/docker/site/docker-start-site.sh'
 alias previsao-do-tempo='curl http://wttr.in/~campo-formoso'
+alias cdhotline='cd /home/andre/Documentos/trabalho/php/hotline-laravel-5.5'
+alias vimhotline='cd /home/andre/Documentos/trabalho/php/hotline-laravel-5.5 && vim'
 
 # export do android
-export ANDROID_HOME=/opt/android-sdk
+export ANDROID_HOME=/opt/android-sdk/
+export PATH=${PATH}:/opt/android-sdk/platform-tools:/opt/android-sdk/tools
 
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk/
+
+# Executar isso para aceitar as licencas do android, deve ser feito quando
+# Não instala o android studio
+# $ANDROID_HOME/tools/bin/sdkmanager --licenses
+
+# Um bom comando para construir app ionic
+# ionic cordova run android --device --minifyjs --minifycss --optimizejs --prod

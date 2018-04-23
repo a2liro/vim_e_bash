@@ -1,4 +1,5 @@
 
+map <c-v> mhA;<esc>`h
 
 " mapeamento para as teclas pararem de funcionar
 nmap <left> <NOP>
@@ -39,7 +40,8 @@ set expandtab ts=4 sw=4
 
 "configuração para indentar de forma diferente em arquivos diferentes
 " autocmd FileType php set softtabstop=4 tabstop=8 laststatus=2 shiftwidth=4 expandtab
-" autocmd FileType html set softtabstop=2 tabstop=2 laststatus=2 shiftwidth=2 expandtab
+autocmd FileType html set softtabstop=2 tabstop=2 laststatus=2 shiftwidth=2 expandtab
+autocmd FileType typescript set softtabstop=2 tabstop=2 laststatus=2 shiftwidth=2 expandtab
 
 
 
